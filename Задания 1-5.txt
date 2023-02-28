@@ -1,36 +1,42 @@
-sergei@sergei-vPC-ubuntu:~$ cd 1
-sergei@sergei-vPC-ubuntu:~/1$ mkdir 'Игрушки для школьников'
-sergei@sergei-vPC-ubuntu:~/1$ mkdir 'Игрушки для дошколят'
-sergei@sergei-vPC-ubuntu:~/1$ cd Игрушки\ для\ школьников/
-sergei@sergei-vPC-ubuntu:~/1/Игрушки для школьников$ touch Роботы
-sergei@sergei-vPC-ubuntu:~/1/Игрушки для школьников$ touch Конструктор
-sergei@sergei-vPC-ubuntu:~/1/Игрушки для школьников$ touch 'Настольные игры'
-sergei@sergei-vPC-ubuntu:~/1/Игрушки для школьников$ ll
+
+mkdir 'Игрушки для школьников'
+mkdir 'Игрушки для дошколят'
+cd Игрушки\ для\ школьников/
+/Игрушки для школьников$ touch Роботы
+/Игрушки для школьников$ touch Конструктор
+/Игрушки для школьников$ touch 'Настольные игры'
+/Игрушки для школьников$ ll
+
 	drwxrwxr-x 2 sergei sergei 4096 фев 19 21:16  ./
 	drwxrwxr-x 4 sergei sergei 4096 фев 19 21:14  ../
 	-rw-rw-r-- 1 sergei sergei    0 фев 19 21:15  Конструктор
 	-rw-rw-r-- 1 sergei sergei    0 фев 19 21:15 'Настольные игры'
 	-rw-rw-r-- 1 sergei sergei    0 фев 19 21:15  Роботы
-sergei@sergei-vPC-ubuntu:~/1/Игрушки для школьников$ cd ..
-sergei@sergei-vPC-ubuntu:~/1$ ll
+/Игрушки для школьников$ cd ..
+
+ll
 	drwxrwxr-x  4 sergei sergei 4096 фев 19 21:14  ./
 	drwxr-x--- 18 sergei sergei 4096 фев 19 21:13  ../
 	drwxrwxr-x  2 sergei sergei 4096 фев 19 21:14 'Игрушки для дошколят'/
 	drwxrwxr-x  2 sergei sergei 4096 фев 19 21:16 'Игрушки для школьников'/
-sergei@sergei-vPC-ubuntu:~/1$ cd Игрушки\ для\ дошколят/
-sergei@sergei-vPC-ubuntu:~/1/Игрушки для дошколят$ touch 'Мягкие игрушки'
-sergei@sergei-vPC-ubuntu:~/1/Игрушки для дошколят$ touch Куклы
-sergei@sergei-vPC-ubuntu:~/1/Игрушки для дошколят$ touch Машинки
-sergei@sergei-vPC-ubuntu:~/1/Игрушки для дошколят$ ll
+
+cd Игрушки\ для\ дошколят/
+/Игрушки для дошколят$ touch 'Мягкие игрушки'
+/Игрушки для дошколят$ touch Куклы
+/Игрушки для дошколят$ touch Машинки
+/Игрушки для дошколят$ ll
+
 	drwxrwxr-x 2 sergei sergei 4096 фев 19 21:18  ./
 	drwxrwxr-x 4 sergei sergei 4096 фев 19 21:14  ../
 	-rw-rw-r-- 1 sergei sergei    0 фев 19 21:18  Куклы
 	-rw-rw-r-- 1 sergei sergei    0 фев 19 21:18  Машинки
 	-rw-rw-r-- 1 sergei sergei    0 фев 19 21:18 'Мягкие игрушки'
-sergei@sergei-vPC-ubuntu:~/1/Игрушки для дошколят$ cd ..
-sergei@sergei-vPC-ubuntu:~/1$ mv 'Игрушки для дошколят' 'Имя Игрушки' && mv Игрушки\ для\ школьников/* 'Имя Игрушки' && rm Игрушки\ для\ школьников/
-sergei@sergei-vPC-ubuntu:~/1$ cd Имя\ Игрушки/
-sergei@sergei-vPC-ubuntu:~/1/Имя Игрушки$ ll
+
+/Игрушки для дошколят$ cd ..
+mv 'Игрушки для дошколят' 'Имя Игрушки' && mv Игрушки\ для\ школьников/* 'Имя Игрушки' && rm Игрушки\ для\ школьников/
+cd Имя\ Игрушки/
+/Имя Игрушки$ ll
+
 	drwxrwxr-x 2 sergei sergei 4096 фев 19 21:20  ./
 	drwxrwxr-x 3 sergei sergei 4096 фев 19 21:20  ../
 	-rw-rw-r-- 1 sergei sergei    0 фев 19 21:15  Конструктор
@@ -39,13 +45,15 @@ sergei@sergei-vPC-ubuntu:~/1/Имя Игрушки$ ll
 	-rw-rw-r-- 1 sergei sergei    0 фев 19 21:18 'Мягкие игрушки'
 	-rw-rw-r-- 1 sergei sergei    0 фев 19 21:15 'Настольные игры'
 	-rw-rw-r-- 1 sergei sergei    0 фев 19 21:15  Роботы
-sergei@sergei-vPC-ubuntu:~/1/Имя Игрушки$ cd ..
-sergei@sergei-vPC-ubuntu:~/1$ mv Имя\ Игрушки Игрушки
-sergei@sergei-vPC-ubuntu:~/1$ ll
+
+/Имя Игрушки$ cd ..
+mv Имя\ Игрушки Игрушки
+ll
 	drwxrwxr-x  3 sergei sergei 4096 фев 19 21:21 ./
 	drwxr-x--- 18 sergei sergei 4096 фев 19 21:13 ../
 	drwxrwxr-x  2 sergei sergei 4096 фев 19 21:20 Игрушки/
-sergei@sergei-vPC-ubuntu:~/1$ ll Игрушки/
+ll Игрушки/
+
 	drwxrwxr-x 2 sergei sergei 4096 фев 19 21:20  ./
 	drwxrwxr-x 3 sergei sergei 4096 фев 19 21:21  ../
 	-rw-rw-r-- 1 sergei sergei    0 фев 19 21:15  Конструктор
@@ -54,17 +62,19 @@ sergei@sergei-vPC-ubuntu:~/1$ ll Игрушки/
 	-rw-rw-r-- 1 sergei sergei    0 фев 19 21:18 'Мягкие игрушки'
 	-rw-rw-r-- 1 sergei sergei    0 фев 19 21:15 'Настольные игры'
 	-rw-rw-r-- 1 sergei sergei    0 фев 19 21:15  Роботы
-sergei@sergei-vPC-ubuntu:~/1$ sudo snap install notepad-plus-plus
+
+sudo snap install notepad-plus-plus
 [sudo] пароль для sergei:
 notepad-plus-plus 8.4.9 от Taqi Raza (mmtrt) установлен
-sergei@sergei-vPC-ubuntu:~/1$ sudo snap remove notepad-plus-plus
+sudo snap remove notepad-plus-plus
 notepad-plus-plus удалено
-sergei@sergei-vPC-ubuntu:~/1$ touch log.log
-sergei@sergei-vPC-ubuntu:~/1$ crontab -e
+touch log.log
+crontab -e
 */3 * * * * cd /home/sergei/1 && echo "text text text" >> log.log
 crontab: installing new crontab
-sergei@sergei-vPC-ubuntu:~/1$ cat log.log
-sergei@sergei-vPC-ubuntu:~/1$ cat log.log
+cat log.log
+cat log.log
+
 text text text
 text text text
 text text text
